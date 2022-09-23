@@ -1,4 +1,4 @@
-package Ders2.Odev2.RecapDemo;
+package Ders2.Odev1.RecapDemo;
 
 public class DortIslem {
 

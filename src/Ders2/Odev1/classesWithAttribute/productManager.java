@@ -1,4 +1,4 @@
-package Ders2.Odev2.classesWithAttribute;
+package Ders2.Odev1.classesWithAttribute;
 
 public class productManager {
 

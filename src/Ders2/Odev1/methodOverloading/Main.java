@@ -1,4 +1,4 @@
-package Ders2.Odev2.methodOverloading;
+package Ders2.Odev1.methodOverloading;
 
 public class Main {
     public static void main(String[] args) {

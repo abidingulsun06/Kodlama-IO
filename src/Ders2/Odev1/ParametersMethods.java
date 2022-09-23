@@ -1,4 +1,4 @@
-package Ders2.Odev2;
+package Ders2.Odev1;
 
 public class ParametersMethods {
     public static void main(String[] args) {

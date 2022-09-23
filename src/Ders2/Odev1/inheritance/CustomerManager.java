@@ -1,4 +1,4 @@
-package Ders2.Odev2.inheritance;
+package Ders2.Odev1.inheritance;
 
 public class CustomerManager {
 

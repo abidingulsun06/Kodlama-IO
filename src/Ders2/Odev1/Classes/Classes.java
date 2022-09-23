@@ -1,4 +1,4 @@
-package Ders2.Odev2.Classes;
+package Ders2.Odev1.Classes;
 
 public class Classes {
     public static void main(String[] args) {
