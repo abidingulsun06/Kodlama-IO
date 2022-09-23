@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6637b9a4-c226-4b7e-817d-20d3d23d5acf" name="Changes" comment="güncellendi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ders2/Odev2/ParametersMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders2/Odev2/ParametersMethods.java" afterDir="false" />
-    </list>
+    <list default="true" id="6637b9a4-c226-4b7e-817d-20d3d23d5acf" name="Changes" comment="güncellendi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663846840762</updated>
-      <workItem from="1663846842714" duration="13090000" />
+      <workItem from="1663846842714" duration="13543000" />
     </task>
     <task id="LOCAL-00001" summary="güncellendi">
       <created>1663847714975</created>
@@ -64,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663848585434</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="güncellendi">
+      <created>1663892343139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663892343139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
