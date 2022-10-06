@@ -1,8 +1,8 @@
-package Ders3.Ödev1.OOP;
+package Ders3.Odev1.OOP;
 
-import Ders3.Ödev1.OOP.Credit.CustomerManager;
-import Ders3.Ödev1.OOP.Credit.TeacherCreditManager;
-import Ders3.Ödev1.OOP.entities.Customer;
+import Ders3.Odev1.OOP.Credit.CustomerManager;
+import Ders3.Odev1.OOP.Credit.TeacherCreditManager;
+import Ders3.Odev1.OOP.entities.Customer;
 
 public class Main {
     public static void main(String[] args) {

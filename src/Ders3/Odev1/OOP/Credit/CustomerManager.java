@@ -1,9 +1,10 @@
-package Ders3.Ödev1.OOP.Credit;
+package Ders3.Odev1.OOP.Credit;
 
-import Ders3.Ödev1.OOP.entities.Customer;
+import Ders3.Odev1.OOP.entities.Customer;
 
 public class CustomerManager {
 
+    //Dal DataAccess Layer veri erişim katmanı
     private Customer customer;
     private CreditManager creditManager;
 

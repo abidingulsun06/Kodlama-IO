@@ -1,4 +1,4 @@
-package Ders3.Ödev1.OOP.Credit;
+package Ders3.Odev1.OOP.Credit;
 
 public interface CreditManager {
 

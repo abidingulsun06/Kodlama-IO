@@ -1,4 +1,4 @@
-package Ders3.Ödev1.referanstipler;
+package Ders3.Odev1.referanstipler;
 
 
 public class Main {

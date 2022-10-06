@@ -1,4 +1,4 @@
-package Ders3.Ödev1.OOP.entities;
+package Ders3.Odev1.OOP.entities;
 
 public class Company extends Customer {
     private String taxNumber;
