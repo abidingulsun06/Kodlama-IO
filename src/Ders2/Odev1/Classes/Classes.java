@@ -1,10 +1,9 @@
 package Ders2.Odev1.Classes;
 
 public class Classes {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         CustomerManager customerManager = new CustomerManager();
-
         CustomerManager.add();
         customerManager.update();
 
