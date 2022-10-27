@@ -37,8 +37,8 @@ public class InMemorySoftwareLanguagesRepository implements SoftwareLanguagesRep
     }
 
     @Override
-    public void delete(SoftwareLanguages softwareLanguage) {
-         softwareLanguages.remove(findById(softwareLanguage.getSoftwareLanguagesId()));
+    public void delete(int id) {
+         softwareLanguages.remove(findById(id));
     }
 
     @Override

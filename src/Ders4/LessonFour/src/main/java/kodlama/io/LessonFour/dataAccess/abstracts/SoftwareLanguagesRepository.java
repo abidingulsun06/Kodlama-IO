@@ -8,7 +8,7 @@ public interface SoftwareLanguagesRepository {
     List<SoftwareLanguages> getAll();
     void create(SoftwareLanguages softwareLanguages)  ;
     void update(SoftwareLanguages softwareLanguages);
-    void delete(SoftwareLanguages softwareLanguages);
+    void delete(int id);
     boolean dilVarmi(SoftwareLanguages softwareLanguages);
     SoftwareLanguages findById(int id);
 
