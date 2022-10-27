@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Kodlama-IO.iml" filepath="$PROJECT_DIR$/Kodlama-IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Ders4/LessonFour/LessonFour.iml" filepath="$PROJECT_DIR$/src/Ders4/LessonFour/LessonFour.iml" />
     </modules>
   </component>
 </project>
