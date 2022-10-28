@@ -25,7 +25,7 @@ public class SoftwareLanguagesManager implements SoftwareLanguagesService {
 
     @Override
     public void create(SoftwareLanguages softwareLanguage) throws Exception {
-        if(!softwareLanguage.getSoftwareLanguagesName().isEmpty()) {
+        if(softwareLanguage.getSoftwareLanguagesName().length() != 0) {
             for(SoftwareLanguages sLanguages : softwareLanguagesRepository.getAll()) {
                 if(sLanguages.getSoftwareLanguagesName().equalsIgnoreCase(softwareLanguage.getSoftwareLanguagesName())) {
                     throw new Exception("Aynı isimde 2 adet programlama dili olamaz.");
@@ -39,7 +39,7 @@ public class SoftwareLanguagesManager implements SoftwareLanguagesService {
 
     @Override
     public void update(SoftwareLanguages softwareLanguage) throws Exception {
-        if(!softwareLanguage.getSoftwareLanguagesName().isEmpty()) {
+        if(softwareLanguage.getSoftwareLanguagesName().length() != 0) {
             for(SoftwareLanguages sLanguages : softwareLanguagesRepository.getAll()) {
                 if(sLanguages.getSoftwareLanguagesName().equalsIgnoreCase(softwareLanguage.getSoftwareLanguagesName())) {
                     throw new Exception("Güncelleme yapılırken bir hata oluştu. Aynı isimde 2 adet programlama dili olamaz.");
