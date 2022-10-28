@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6637b9a4-c226-4b7e-817d-20d3d23d5acf" name="Changes" comment="1.ödev bitti">
+    <list default="true" id="6637b9a4-c226-4b7e-817d-20d3d23d5acf" name="Changes" comment="güncellendi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/abstracts/SoftwareLanguagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/abstracts/SoftwareLanguagesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/concretes/SoftwareLanguagesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/concretes/SoftwareLanguagesManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/dataAccess/abstracts/SoftwareLanguagesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/dataAccess/abstracts/SoftwareLanguagesRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/dataAccess/concretes/InMemorySoftwareLanguagesRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/dataAccess/concretes/InMemorySoftwareLanguagesRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/entities/concretes/SoftwareLanguages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/entities/concretes/SoftwareLanguages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/webapi/controllers/SoftwareLanguagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/webapi/controllers/SoftwareLanguagesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +139,7 @@
       <workItem from="1666722300049" duration="103000" />
       <workItem from="1666722435960" duration="752000" />
       <workItem from="1666901114278" duration="1144000" />
-      <workItem from="1666902289791" duration="6852000" />
+      <workItem from="1666902289791" duration="11545000" />
     </task>
     <task id="LOCAL-00001" summary="güncellendi">
       <created>1663847714975</created>
@@ -214,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666909048491</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="güncellendi">
+      <created>1666909169212</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666909169212</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,14 +251,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="güncellendi" />
     <MESSAGE value="Klasör adı güncellendi" />
     <MESSAGE value="Ödev1 tamamlandı" />
     <MESSAGE value="Güncellendi" />
     <MESSAGE value="3.Ödev Bitt" />
     <MESSAGE value="4.Ödev Bitt" />
     <MESSAGE value="1.ödev bitti" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.ödev bitti" />
+    <MESSAGE value="güncellendi" />
+    <option name="LAST_COMMIT_MESSAGE" value="güncellendi" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

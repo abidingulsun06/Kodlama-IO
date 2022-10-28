@@ -24,36 +24,36 @@ public class SoftwareLanguagesManager implements SoftwareLanguagesService {
     }
 
     @Override
-    public void create(SoftwareLanguages softwareLanguage) {
-        if (softwareLanguagesRepository.dilVarmi(softwareLanguage)) {
+    public void create(SoftwareLanguages softwareLanguage) throws Exception {
+        if(!softwareLanguage.getSoftwareLanguagesName().isEmpty()) {
+            for(SoftwareLanguages sLanguages : softwareLanguagesRepository.getAll()) {
+                if(sLanguages.getSoftwareLanguagesName().equalsIgnoreCase(softwareLanguage.getSoftwareLanguagesName())) {
+                    throw new Exception("Aynı isimde 2 adet programlama dili olamaz.");
+                }
+            }
             softwareLanguagesRepository.create(softwareLanguage);
         } else {
-            System.out.println("Veri Eklenirken bir hata oluştu isim tekrar edilemez");
-            return;
+            throw new Exception("Programlama dili boş geçilemez.");
         }
     }
 
     @Override
-    public void update(SoftwareLanguages softwareLanguage) {
-        if (softwareLanguagesRepository.dilVarmi(softwareLanguage)) {
+    public void update(SoftwareLanguages softwareLanguage) throws Exception {
+        if(!softwareLanguage.getSoftwareLanguagesName().isEmpty()) {
+            for(SoftwareLanguages sLanguages : softwareLanguagesRepository.getAll()) {
+                if(sLanguages.getSoftwareLanguagesName().equalsIgnoreCase(softwareLanguage.getSoftwareLanguagesName())) {
+                    throw new Exception("Güncelleme yapılırken bir hata oluştu. Aynı isimde 2 adet programlama dili olamaz.");
+                }
+            }
             softwareLanguagesRepository.update(softwareLanguage);
         } else {
-            System.out.println("Veri Güncellenirken bir hata oluştu isim tekrar edilemez");
-            return;
+            throw new Exception("Programlama dili boş geçilemez.");
         }
     }
 
     @Override
     public void delete(int id) {
-        softwareLanguagesRepository.delete(softwareLanguagesRepository.findById(id));
-    }
-
-    @Override
-    public boolean dilVarmi(SoftwareLanguages softwareLanguages) {
-        if (softwareLanguagesRepository.dilVarmi(softwareLanguages))
-            return true;
-        else
-            return false;
+        softwareLanguagesRepository.delete(findById(id).getSoftwareLanguagesId());
     }
 
     @Override

@@ -24,12 +24,12 @@ public class SoftwareLanguagesController {
     }
 
     @PostMapping("/add")
-    public void insert(@RequestBody SoftwareLanguages softwareLanguages){
+    public void insert(@RequestBody SoftwareLanguages softwareLanguages) throws Exception {
         softwareLanguagesService.create(softwareLanguages);
     }
 
     @PutMapping("/update")
-    public void update(@RequestBody SoftwareLanguages softwareLanguages){
+    public void update(@RequestBody SoftwareLanguages softwareLanguages) throws Exception{
         softwareLanguagesService.update(softwareLanguages);
     }
 

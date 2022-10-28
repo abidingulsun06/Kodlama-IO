@@ -1,13 +1,9 @@
 package kodlama.io.LessonFour.entities.concretes;
 
 
-import javax.validation.Valid;
-
 public class SoftwareLanguages {
 
     private int softwareLanguagesId;
-
-    @Valid
     private String softwareLanguagesName;
 
     public SoftwareLanguages() {

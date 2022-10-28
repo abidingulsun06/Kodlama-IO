@@ -6,9 +6,8 @@ import java.util.List;
 
 public interface SoftwareLanguagesService {
     List<SoftwareLanguages> getAll();
-    void create(SoftwareLanguages softwareLanguages);
-    void update(SoftwareLanguages softwareLanguages);
+    void create(SoftwareLanguages softwareLanguages) throws Exception;
+    void update(SoftwareLanguages softwareLanguages) throws Exception;
     void delete(int id);
-    boolean dilVarmi(SoftwareLanguages softwareLanguages);
     SoftwareLanguages findById(int id);
 }

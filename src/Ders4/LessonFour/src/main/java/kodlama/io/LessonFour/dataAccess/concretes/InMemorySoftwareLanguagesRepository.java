@@ -1,6 +1,5 @@
 package kodlama.io.LessonFour.dataAccess.concretes;
 
-
 import kodlama.io.LessonFour.dataAccess.abstracts.SoftwareLanguagesRepository;
 import kodlama.io.LessonFour.entities.concretes.SoftwareLanguages;
 import org.springframework.stereotype.Repository;
@@ -27,26 +26,18 @@ public class InMemorySoftwareLanguagesRepository implements SoftwareLanguagesRep
     }
 
     @Override
-    public void create(SoftwareLanguages softwareLanguage) {
-         softwareLanguages.add(softwareLanguage);
+    public void create(SoftwareLanguages softwareLanguage) throws Exception {
+        softwareLanguages.add(softwareLanguage);
     }
 
     @Override
     public void update(SoftwareLanguages softwareLanguage) {
-        softwareLanguages.set(getById(softwareLanguage.getSoftwareLanguagesId()),softwareLanguage);
+        softwareLanguages.set(getById(softwareLanguage.getSoftwareLanguagesId()), softwareLanguage);
     }
 
     @Override
     public void delete(int id) {
-         softwareLanguages.remove(findById(id));
-    }
-
-    @Override
-    public boolean dilVarmi(SoftwareLanguages softwareLanguage) {
-        if (softwareLanguage.getSoftwareLanguagesName()== softwareLanguage.getSoftwareLanguagesName()){
-            return true;
-        }
-        return false;
+        softwareLanguages.remove(findById(id));
     }
 
     @Override
@@ -54,7 +45,7 @@ public class InMemorySoftwareLanguagesRepository implements SoftwareLanguagesRep
         return softwareLanguages.get(id);
     }
 
-    private int getById(int id){
+    private int getById(int id) {
         SoftwareLanguages softwareLanguage = findById(id);
         return this.softwareLanguages.indexOf(softwareLanguage);
     }

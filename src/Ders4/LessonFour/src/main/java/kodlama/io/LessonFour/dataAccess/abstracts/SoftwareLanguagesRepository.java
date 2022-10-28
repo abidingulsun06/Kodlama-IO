@@ -6,10 +6,9 @@ import java.util.List;
 
 public interface SoftwareLanguagesRepository {
     List<SoftwareLanguages> getAll();
-    void create(SoftwareLanguages softwareLanguages)  ;
+    void create(SoftwareLanguages softwareLanguages) throws Exception;
     void update(SoftwareLanguages softwareLanguages);
     void delete(int id);
-    boolean dilVarmi(SoftwareLanguages softwareLanguages);
     SoftwareLanguages findById(int id);
 
 }
