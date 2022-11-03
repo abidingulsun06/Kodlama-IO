@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6637b9a4-c226-4b7e-817d-20d3d23d5acf" name="Changes" comment="güncellendi">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_138.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_common_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_ui_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_webmvc_core_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_4_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/concretes/SoftwareLanguagesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/src/main/java/kodlama/io/LessonFour/business/concretes/SoftwareLanguagesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kodlama-IO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kodlama-IO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ders4/LessonFour/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ders4/LessonFour/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -26,6 +42,22 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,7 +70,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2F7d12zqqpGlbbMlNQrM9SCl4Ym" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -57,27 +89,44 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ACER/git/Kodlama-IO/src/Ders4/LessonFour",
+    "last_directory_selection": "C:/Users/ACER/git/Kodlama-IO/src/Ders5/Odev1/src/test/java",
+    "last_opened_file_path": "C:/Users/ACER/git/Kodlama-IO/src/Ders5/Odev1/src/main/java/arge/Odev1/wepapi/controllers",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
+    "spring.configuration.checksum": "7e71b259ada55e8ea6ed50d74afab25e",
+    "two.files.diff.last.used.file": "C:/Users/ACER/git/Kodlama-IO/src/Ders5/Odev1/pom.xml"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA",
       "XML"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\git\Kodlama-IO\src\Ders5\Odev1\src\main\java\arge\Odev1\wepapi\controllers" />
+      <recent name="C:\Users\ACER\git\Kodlama-IO\src\Ders5\Odev1\src\main\java\arge\Odev1\entities\concretes" />
+      <recent name="C:\Users\ACER\git\Kodlama-IO\src\Ders5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ACER\git\Kodlama-IO\src\Ders5" />
       <recent name="C:\Users\ACER\git\Kodlama-IO\src\Ders4" />
       <recent name="C:\Users\ACER\git\Kodlama-IO\src\MernisService" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LessonFourApplication (1)">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Odev1Application">
     <configuration name="LessonFourApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="LessonFour" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="kodlama.io.LessonFour.LessonFourApplication" />
@@ -94,6 +143,20 @@
     <configuration name="LessonFourApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="LessonFour" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="Ders4.LessonFour.src.main.java.kodlama.io.LessonFour.LessonFourApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev1Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Odev1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Ders5.Odev1.src.main.java.arge.Odev1.Odev1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Odev1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Odev1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="arge.Odev1.Odev1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,7 +197,13 @@
       <workItem from="1666722300049" duration="103000" />
       <workItem from="1666722435960" duration="752000" />
       <workItem from="1666901114278" duration="1144000" />
-      <workItem from="1666902289791" duration="11997000" />
+      <workItem from="1666902289791" duration="12610000" />
+      <workItem from="1667473795982" duration="1018000" />
+      <workItem from="1667474844202" duration="492000" />
+      <workItem from="1667475382819" duration="644000" />
+      <workItem from="1667476226117" duration="308000" />
+      <workItem from="1667476569217" duration="2000" />
+      <workItem from="1667476630444" duration="19551000" />
     </task>
     <task id="LOCAL-00001" summary="güncellendi">
       <created>1663847714975</created>
@@ -227,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666964025682</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="güncellendi">
+      <created>1666964428241</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666964428241</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +337,10 @@
     <MESSAGE value="1.ödev bitti" />
     <MESSAGE value="güncellendi" />
     <option name="LAST_COMMIT_MESSAGE" value="güncellendi" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

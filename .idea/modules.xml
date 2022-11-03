@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Kodlama-IO.iml" filepath="$PROJECT_DIR$/Kodlama-IO.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/Ders4/LessonFour/LessonFour.iml" filepath="$PROJECT_DIR$/src/Ders4/LessonFour/LessonFour.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Ders5/Odev1/Odev1.iml" filepath="$PROJECT_DIR$/src/Ders5/Odev1/Odev1.iml" />
     </modules>
   </component>
 </project>
